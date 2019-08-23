@@ -23,3 +23,14 @@ def map_to_double(array)
   end
   new_array
 end
+
+def map_to_square(array)
+  new_array = []
+
+  array.length.times do |index|
+    n = array[index]
+    new_array << n ** 2
+
+  end
+  new_array
+end
