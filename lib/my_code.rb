@@ -30,7 +30,6 @@ def map_to_square(array)
   array.length.times do |index|
     n = array[index]
     new_array << n ** 2
-
   end
   new_array
 end
