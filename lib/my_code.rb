@@ -21,4 +21,5 @@ def map_to_double(array)
     new_array << n * 2
 
   end
+  new_array
 end
