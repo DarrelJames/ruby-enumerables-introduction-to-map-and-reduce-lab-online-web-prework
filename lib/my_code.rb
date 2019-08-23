@@ -36,7 +36,7 @@ end
 
 def reduce_to_total(source_array, starting_point = 0)
   new = 0
-  source_array.length.times do |index|
+  starting_point.times do |index|
     n = source_array[index]
     new += n
   end
