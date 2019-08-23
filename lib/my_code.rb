@@ -40,4 +40,5 @@ def reduce_to_total(source_array, starting_point = 0)
     n = source_array[index]
     new += n
   end
+  new
 end
