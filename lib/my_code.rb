@@ -35,8 +35,8 @@ def map_to_square(array)
 end
 
 def reduce_to_total(source_array, starting_point = 0)
-  new = 0
-  starting_point.times do |index|
+  new = starting_point
+  source_array.length.times do |index|
     n = source_array[index]
     new += n
   end
