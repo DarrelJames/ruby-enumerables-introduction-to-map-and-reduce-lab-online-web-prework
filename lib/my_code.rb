@@ -5,6 +5,7 @@ def map_to_negativize(num)
     n = num[index]
     if n > 0
       new_array << "-#{n}"
+
     end
   end
 end
