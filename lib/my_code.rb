@@ -6,4 +6,5 @@ def map_to_negativize(num)
     new_array << n * -1
 
   end
+  new_array
 end
