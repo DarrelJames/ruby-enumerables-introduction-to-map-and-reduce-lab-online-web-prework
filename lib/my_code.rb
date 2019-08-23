@@ -48,6 +48,6 @@ def reduce_to_all_true(array)
     if !array[index]
       return false;
     else
-      true
+      return true
     end
 end
